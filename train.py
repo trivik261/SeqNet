@@ -60,5 +60,5 @@ if __name__ == "__main__":
     tensorflow_backend.set_session(session)
 
     #epochs>100 will be enough, but slower
-    train(batch_size=24, iteration=3,
-        epochs=200, crop_size=128) 
+    train(batch_size=8, iteration=3,
+        epochs=120, crop_size=128) 
