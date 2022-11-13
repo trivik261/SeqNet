@@ -61,4 +61,4 @@ if __name__ == "__main__":
 
     #epochs>100 will be enough, but slower
     train(batch_size=8, iteration=3,
-        epochs=120, crop_size=48) 
+        epochs=120, crop_size=256) 
