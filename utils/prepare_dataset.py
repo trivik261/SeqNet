@@ -12,7 +12,7 @@ raw_data_path = [raw_training_x_path, raw_training_y_path]
 
 HDF5_data_path = './data/HDF5/'
 
-DESIRED_DATA_SHAPE = [256,256]
+DESIRED_DATA_SHAPE = [128,128]
 
 
 def isHDF5exists(raw_data_path, HDF5_data_path):
